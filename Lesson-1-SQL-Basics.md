@@ -24,6 +24,13 @@ WHERE (standard_qty = 0 OR gloss_qty = 0) AND occurred_at = ‘2016-1-01’;
 
 - Postgres - A popular open-source database with a very complete library of analytical functions. This is the database used in the course.
 
+### Why Do Data Analysts Use SQL?
+- SQL is easy to understand.
+- Traditional databases allow us to access data directly.
+- Traditional databases allow us to audit and replicate our data.
+- SQL is a great tool for analyzing multiple tables at once.
+- SQL allows you to analyze more complex questions than dashboard tools like Google Analytics.
+
 ### Why is SQL important?
 1.  Easy to understand
 2.	Can access data directly
