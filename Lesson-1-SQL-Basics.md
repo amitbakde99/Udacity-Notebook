@@ -32,6 +32,10 @@ There are some major advantages to using traditional relational databases, which
 - SQL is a great tool for analyzing multiple tables at once.
 - SQL allows you to analyze more complex questions than dashboard tools like Google Analytics.
 
+### SQL vs NoSQL
+
+You may have heard of NoSQL, which stands for not only SQL. Databases using NoSQL allow you to write code that interacts with the data a bit differently than what we will do in this course. These NoSQL environments tend to be particularly popular for web-based data, but less popular for data that lives in spreadsheets the way we have been analyzing data up to this point. One of the most popular NoSQL languages is called MongoDB. Udacity has a full course on MongoDB that you can take for free here, but these will not be a focus of this program.
+
 ### Why is SQL important?
 1.  Easy to understand
 2.	Can access data directly
