@@ -11,14 +11,16 @@ WHERE (standard_qty = 0 OR gloss_qty = 0) AND occurred_at = ‘2016-1-01’;
 
 - Entity Relationship Diagram (ERD) – A diagrammatic representation of tables and their relationships to one another. Each box shows the name of the table and has two columns below. The first column shows whether a particular field listed to the right is a primary key (PK) or a Foreign Key (FK); the second shows a list of the attributes in the table. Each attribute has a corresponding column in the actual table. The key point here is that the ERD shows us relationships between tables. The “crows feet” arrows show us how the tables connect to one another by connecting primary keys to foreign keys. The three little prongs show that the foreign key can appear in many rows in a table. In other words, the foreign key is not unique in table.
 
--These diagrams help you visualize the data you are analyzing including:
+- These diagrams help you visualize the data you are analyzing including:
 
-The names of the tables.
-The columns in each table.
-The way the tables work together.
+1.The names of the tables.
+2.The columns in each table.
+3.The way the tables work together.
 
 - Primary Key (PK) – Every table has a primary key. The primary key is a unique value for each row. Now two rows can have the same primary key. The primary key is often the first column in a table.
+
 - Foreign Key (FK) – A foreign key is a column in one table that is the primary key in a different table.
+
 - Postgres - A popular open-source database with a very complete library of analytical functions. This is the database used in the course.
 
 ### Why is SQL important?
