@@ -25,6 +25,7 @@ WHERE (standard_qty = 0 OR gloss_qty = 0) AND occurred_at = ‘2016-1-01’;
 - Postgres - A popular open-source database with a very complete library of analytical functions. This is the database used in the course.
 
 ### Why Do Data Analysts Use SQL?
+There are some major advantages to using traditional relational databases, which we interact with using SQL. The five most apparent are:
 - SQL is easy to understand.
 - Traditional databases allow us to access data directly.
 - Traditional databases allow us to audit and replicate our data.
