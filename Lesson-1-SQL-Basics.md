@@ -71,7 +71,7 @@ A statement in SQL is a command that allows you to perform a certain function.  
 This statement is composed of clauses. Clauses always appear in the same order. Some clauses are required and others are optional. The SELECT clause tells the database which columns you want to read from the database. The * is called a wildcard. There are various types of wildcards. This one represents “all columns.” The FROM clause tells the database which table to you want to select columns from. Both SELECT and FROM are mandatory clauses in any SELECT statement. You can write statements in lower case, but traditionally, SQL commands are written all uppercase. So, “select * from orders;” works just fine, but “SELECT * FROM orders;” is more conventional. Sometimes you’ll be required to end a statement in a semicolon, but it depends on the environment. It’s a good habit to include the semicolon at the end.
 
 ### The LIMIT Clause
-The LIMIT clause limits the number of rows returned from a query. For example:
+Comes at the end of query. The LIMIT clause limits the number of rows returned from a query. For example:
 
 ```sql
 SELECT *
@@ -80,7 +80,7 @@ LIMIT 10
 ```
 
 ### The ORDER BY clause
-The ORDER BY clause allows you specify which column you want to use as the basis for your query results ordering and whether you would like your query results to be put in ascending order (that’s the default) or DESCending order. For example:
+Comes after from or where and before limit. The ORDER BY clause allows you specify which column you want to use as the basis for your query results ordering and whether you would like your query results to be put in ascending order (that’s the default) or DESCending order. For example:
 ```sql
 SELECT *
 FROM orders
