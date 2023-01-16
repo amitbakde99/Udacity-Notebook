@@ -80,7 +80,7 @@ LIMIT 10
 ```
 
 ### The ORDER BY clause
-Comes after from or where and before limit. The ORDER BY clause allows you specify which column you want to use as the basis for your query results ordering and whether you would like your query results to be put in ascending order (that’s the default) or DESCending order. For example:
+Comes after FROM or WHERE and before LIMIT clause. The ORDER BY clause allows you specify which column you want to use as the basis for your query results ordering and whether you would like your query results to be put in ascending order (that’s the default) or DESCending order. For example:
 ```sql
 SELECT *
 FROM orders
