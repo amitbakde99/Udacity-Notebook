@@ -112,20 +112,6 @@ FROM accounts
 WHERE name = 'Exxon Mobil';
 ```
 
-Common symbols used in WHERE statements include:
-
-> (greater than)
-
-< (less than)
-
->= (greater than or equal to)
-
-<= (less than or equal to)
-
-= (equal to)
-
-!= (not equal to)
-
 ### Derived Columns
 A derived column is a column you create by using mathematical operations on already existing columns. For example:
 ```sql
