@@ -180,6 +180,7 @@ WHERE occurred_at BETWEEN '2016-04-01' AND '2016-10-01'
 ORDER BY occurred_at
 ```
 Whereas the AND operator makes a statement more exclusive of some records, the OR operator makes a statement more inclusive.
+yes, the BETWEEN operator in SQL is inclusive; that is, the endpoint values are included. So the BETWEEN statement in this query is equivalent to having written: "WHERE gloss_qty >= 24 AND gloss_qty <= 29.
 ```sql
 SELECT *
 FROM orders
