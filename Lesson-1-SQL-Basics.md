@@ -186,5 +186,11 @@ SELECT *
 FROM orders
 WHERE standard_qty = 0 OR gloss_qty = 0 OR poster_qty = 0
 ```
-Here, we are selecting all columns from the “orders” table, but only where the “standard_qty” is 0, or where the “gloss_qty” is 0, or where the “poster_qty” is 0. 
+Here, we are selecting all columns from the “orders” table, but only where the “standard_qty” is 0, or where the “gloss_qty” is 0, or where the “poster_qty” is 0.
 
+```sql
+SELECT *
+FROM orders
+WHERE standard_qty = 0 AND (gloss_qty > 1000 OR poster_qty > 1000);
+```
+Here, query that returns a list of orders where the standard_qty is zero and either the gloss_qty or poster_qty is over 1000.
