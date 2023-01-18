@@ -112,7 +112,7 @@ FROM accounts
 WHERE name = 'Exxon Mobil';
 ```
 
-### Derived Columns
+### Arthmatic Operators - Derived Columns
 A derived column is a column you create by using mathematical operations on already existing columns. For example:
 ```sql
 SELECT id, (standard_amt_usd/total_amt_usd)*100 AS std_percent, total_amt_usd
