@@ -40,6 +40,8 @@ ON accounts.id = orders.account_id
 ```
 Here, we SELECT all columns from all tables, starting FROM the web_events table and JOINing the accounts table ON web_events.account_id and accounts.id. Then we JOIN the orders table ON accounts.id and orders.account_id. Note that we connect web_events to accounts and then connect accounts to orders.
 
+ The actual ordering of which table name goes first in this statement doesn't matter so much.
+
 ### Aliases
 You can give aliases both to a table name and to a column name from within a particular table. You an use an optional AS clause between the name and the alias if you want to. The general form looks like this:
 ```sql
