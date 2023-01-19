@@ -20,7 +20,7 @@ WHERE (standard_qty = 0 OR gloss_qty = 0) AND occurred_at = ‘2016-1-01’;
 
 - Primary Key (PK) – Every table has a primary key. The primary key is a unique value for each row. Now two rows can have the same primary key. The primary key is often the first column in a table.
 
-- Foreign Key (FK) – A foreign key is a column in one table that is the primary key in a different table.
+- Foreign Key (FK) – A foreign key is a column in one table that is the primary key in a different table. A table can actually have multiple foreign keys (unlike primary keys).  Foreign keys are always associated with a primary key, and they are associated with the crow-foot notation above to show they can appear multiple times in a particular table
 
 - Postgres - A popular open-source database with a very complete library of analytical functions. This is the database used in the course.
 
