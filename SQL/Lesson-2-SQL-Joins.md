@@ -1,11 +1,13 @@
 ## Lesson 2: SQL Joins
 
-### Why are different sorts of data stored in different tables?
-1.	Some sorts of data are updated more frequently than other sorts and it’s more efficient and safer to store them separately
+### Why are different types of data stored in different tables?
+1.	Some types of data are updated more frequently than other sorts and it’s more efficient and safer to store them separately
 2.	Storing data in separate tables allows you to access the data much more quickly, because each table contains only a portion of the total available data
 
 ### What is database normalization?
-When you normalize a database, you have four goals:
+When creating a database, it is really important to think about how data will be stored. This is known as normalization, and it is a huge part of most SQL classes. If you are in charge of setting up a new database, it is important to have a thorough understanding of database normalization.
+
+#### When you normalize a database, you have four goals:
 1.	Arranging data into logical groupings such that each group describes a small part of the whole.
 2.	Minimizing the amount of duplicate data stored in a database.
 3.	Organizing the data such that when you modify it, you make the change in only one place.
