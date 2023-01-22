@@ -28,6 +28,7 @@ WHERE occurred_at >= '2016-12-01'
 AND occurred_at < '2017-01-01'
 ```
 Here, we SELECT the COUNT of all records, which we'll call order_count, FROM the orders table WHERE occurred_at is great than or equal to '2016-12-01' AND less than '2017-01-01'. 
+Notice that COUNT does not consider rows that have NULL values. Therefore, this can be useful for quickly identifying which rows have missing data.
 
 ### SUM
 SUM will add up all of the numerical values in a column, ignoring the null values. Here's an example,
