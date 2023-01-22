@@ -41,6 +41,9 @@ FROM orders
 ```
 Here, we SELECT the SUM for each of three different columns: standard_qty, gloss_qty, and poster_qty. We also assign them aliases: standard, gloss, and poster. We get all of these FROM the orders table.
 
+- Unlike COUNT, you can only use SUM on numeric columns. However, SUM will ignore NULL values, as do the other aggregation functions
+- An important thing to remember: aggregators only aggregate vertically - the values of a column.
+
 ### MIN and MAX
 MIN and MAX work similarly to SUM. However, functionally, MIN and MAX are similar to COUNT in that they can be used on non-numerical columns. Depending on the column type, MIN will return the lowest number, earliest date, or non-numerical value as early in the alphabet as possible. As you might suspect, MAX does the opposite—it returns the highest number, the latest date, or the non-numerical value closest alphabetically to “Z.” Here's an example:
 ```sql
