@@ -378,6 +378,12 @@ ORDER BY 2 DESC
 ```
 As you can see the WHERE clause has been replaced by a HAVING clause that appears after the GROUP BY clause.
 
+### Often there is confusion about the difference between WHERE and HAVING. Select all the statements that are true regarding HAVING and WHERE statements.
+- WHERE subsets the returned data based on a logical condition
+- WHERE appears after the FROM, JOIN and ON clauses, but before GROUP BY.
+- HAVING appears after the GROUP BY clause, but before teh ORDER BY clause
+- HAVING is like WHERE, but it works on logical statements involving aggregations
+
 ### Problems 
 
 1. How many of the sales reps have more than 5 accounts that they manage?
